@@ -27,11 +27,6 @@
     width:48%;
     color: #26A65B;
 }
-/*#scramble #timeBox{
-    display:inline-block;
-    float: right;
-    color: #26A65B;
-}*/
 
 #scramble #stepBox div {
     display:inline-block;
@@ -80,4 +75,7 @@
     width: auto;
     padding: 3px 8px;
     margin-top: 30px;
+}
+#gameover{
+    
 }
