@@ -1,12 +1,10 @@
 ﻿body{
     font-family: 'Lato', sans-serif;
-}
-#scramble hr{
-    border:none;
-    border-top:2px solid #f5f2f2;
-    height:1px;
-}
-
+    background-image: url("http://legacy.nerdywithchildren.com/wp-content/uploads/2013/07/puzzle.jpg");
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}   
 #scramble #mainPanel {
     background-color:#191919;
     padding:10px 0px;
@@ -29,11 +27,11 @@
     width:48%;
     color: #26A65B;
 }
-#scramble #timeBox{
+/*#scramble #timeBox{
     display:inline-block;
     float: right;
     color: #26A65B;
-}
+}*/
 
 #scramble #stepBox div {
     display:inline-block;

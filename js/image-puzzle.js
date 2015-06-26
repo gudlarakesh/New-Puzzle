@@ -1,6 +1,4 @@
-﻿alert("Are you ready to Play");
-
-var timerFunction;
+﻿var timerFunction;
 
 var imagePuzzle = {
     stepCount: 0,
@@ -12,14 +10,14 @@ var imagePuzzle = {
         $('#sortable').randomize();
         this.enableSwapping('#sortable li');
         this.stepCount = 0;
-        this.startTime = new Date().getTime();
+        // this.startTime = new Date().getTime();
         this.tick();
     },
     tick: function () {
-        var now = new Date().getTime();
-        var elapsedTime = parseInt((now - imagePuzzle.startTime) / 1000, 10);
-        $('#timerPanel').text(elapsedTime);
-        timerFunction = setTimeout(imagePuzzle.tick, 1000);
+        // var now = new Date().getTime();
+        // var elapsedTime = parseInt((now - imagePuzzle.startTime) / 1000, 10);
+        // $('#timerPanel').text(elapsedTime);
+        // timerFunction = setTimeout(imagePuzzle.tick, 1000);
     },
     enableSwapping: function (elem) {
         $(elem).draggable({
